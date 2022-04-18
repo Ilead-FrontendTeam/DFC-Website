@@ -2240,7 +2240,7 @@ span {
 }
 .classic-arrow .custom-arrow {
     position: absolute;
-    bottom: 50px;
+    bottom: 50px !important;
     z-index: 1;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -16773,5 +16773,19 @@ hr {
     .container {
         max-width: 1400px;
     }
+}
+
+/***********-*****/
+.brand-logo img {
+    max-height: 117px;
+}
+
+@media (max-width: 575px) { 
+.cart-dropdown, .profile-menu {
+    display: none;
+}
+.menu-right li {
+        font-size: 20px;
+}
 }
 /*# sourceMappingURL=demo3.css.map */
